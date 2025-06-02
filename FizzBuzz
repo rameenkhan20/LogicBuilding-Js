@@ -1,0 +1,21 @@
+var fiizBuzzArray = [];
+var number = 0;
+
+function fizzBuzzz(){
+    if ((number % 3 === 0) && (number % 5 === 0)){
+        fiizBuzzArray.push("fizzBuzzz");
+    }
+    else if(number % 5 === 0){
+        fiizBuzzArray.push("Buzzz");
+    }
+     else if(number % 3 === 0){
+        fiizBuzzArray.push("Fizzz");
+    }
+    else{
+        fiizBuzzArray.push(number);
+    }
+    number++;
+    console.log(fiizBuzzArray);
+}
+
+fizzBuzzz();
