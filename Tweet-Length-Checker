@@ -1,0 +1,7 @@
+var userInput = prompt("How are you feeling today");
+var finalMessage = userInput.slice(0,140);
+alert(finalMessage);
+
+var inputLen = userInput.length;
+var remainin = (280 - inputLen);
+alert(" You have entered " + inputLen + " characters " + " and you have " + remainin +  " remaining characters. ");
