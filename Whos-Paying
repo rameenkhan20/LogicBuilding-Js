@@ -1,0 +1,13 @@
+function whosPaying(names) {
+
+    var range = names.length;
+
+    var thePerson = Math.floor(Math.random() * range);
+
+    return names[thePerson] + "is going to buy lunch today!";
+
+/******Don't change the code below*******/    
+}
+
+var theArray = ["Angela", "Ben", "Jenny", "Michael", "Chloe"];
+whosPaying(theArray);
